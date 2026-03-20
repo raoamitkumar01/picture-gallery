@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Registration Page</title>
+
+    <style>
+
+        body
+        {
+            font-family: Arial;
+            background-color: lightblue;
+        }
+
+        .form-box
+        {
+            width: 350px;
+            background-color: white;
+            padding: 20px;
+            margin: 100px auto;
+            border-radius: 10px;
+            border: 2px solid black;
+        }
+
+        h1
+        {
+            text-align: center;
+        }
+
+        h2
+        {
+            text-align: center;
+        }
+
+        input, select
+        {
+            width: 95%;
+            padding: 8px;
+            margin: 5px 0;
+        }
+
+        button
+        {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            background-color: green;
+            color: white;
+            border: none;
+        }
+
+        .reset-btn
+        {
+            background-color: red;
+        }
+
+        button:hover
+        {
+            opacity: 0.8;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+    <h1>Registration Form</h1>
+
+    <div class="form-box">
+
+        <h2>Enter Details</h2>
+
+        <form>
+
+            Name<br>
+            <input type="text"><br>
+
+            Email<br>
+            <input type="email"><br>
+
+            Password<br>
+            <input type="password"><br>
+
+            Gender<br>
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select><br>
+
+            Country<br>
+            <select>
+                <option>India</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Canada</option>
+            </select><br>
+
+            State<br>
+            <select>
+                <option>Haryana</option>
+                <option>Punjab</option>
+                <option>Rajasthan</option>
+                <option>UP</option>
+            </select><br><br>
+
+            <button type="submit">Register</button>
+
+            <button type="reset" class="reset-btn">Reset</button>
+
+        </form>
+
+    </div>
+
+</body>
+</html>

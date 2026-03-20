@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Contact - Amit Kumar</title>
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:linear-gradient(45deg,#5f2c82,#49a09d);
+}
+
+
+/* Navbar */
+
+.navbar{
+background:black;
+padding:10px;
+text-align:center;
+}
+
+.navbar a{
+color:white;
+margin:15px;
+text-decoration:none;
+font-size:18px;
+}
+
+.navbar a:hover{
+color:yellow;
+}
+
+
+/* Container */
+
+.container{
+width:70%;
+margin:40px auto;
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 0 15px black;
+display:flex;
+gap:20px;
+animation:fade 1s;
+}
+
+
+/* Animation */
+
+@keyframes fade{
+from{opacity:0; transform:translateY(30px);}
+to{opacity:1; transform:translateY(0);}
+}
+
+
+/* Left image */
+
+.left{
+width:40%;
+}
+
+.left img{
+width:100%;
+height:100%;
+border-radius:10px;
+}
+
+
+/* Right form */
+
+.right{
+width:60%;
+}
+
+
+input, textarea{
+width:100%;
+padding:8px;
+margin:5px 0;
+}
+
+
+button{
+padding:8px 15px;
+background:purple;
+color:white;
+border:none;
+}
+
+
+</style>
+
+</head>
+<body>
+
+
+
+<div class="navbar">
+
+<a href="frontpage.html">Home</a>
+<a href="about.html">About</a>
+<a href="portfolio1.html">Portfolio</a>
+<a href="contact.html">Contact</a>
+
+</div>
+
+
+
+<div class="container">
+
+
+<div class="left">
+
+<img src="https://picsum.photos/400/500">
+
+</div>
+
+
+
+<div class="right">
+
+<h2>Contact Me</h2>
+
+<form>
+
+Name<br>
+<input type="text">
+
+Email<br>
+<input type="text">
+
+Message<br>
+<textarea rows="5"></textarea>
+
+<br><br>
+
+<button>Send</button>
+
+</form>
+
+</div>
+
+
+</div>
+
+
+</body>
+</html>
